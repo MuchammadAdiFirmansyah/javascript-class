@@ -24,63 +24,92 @@ else{
     console.log("tidak lulus")
 }
 
-let bulan=6;
-let tanggal=29;
+let bulan=9;
+let tanggal=27;
 let zodiak="belum dibuat";
 if(bulan==1){
     if(tanggal>0 && tanggal<20){
-        zodiak="aquarius";
+        zodiak="Aquarius";
     }
     if(tanggal>19 && tanggal<31){
-        zodiak="aries";
+        zodiak="Aries";
     }
+} else if (bulan==2){
+    if (tanggal>0 && tanggal<20){
+        zodiak="Capricorn";
+    }
+    if (tanggal>19 && tanggal<30){
+        zodiak="Pisces";
+    }
+} else if (bulan==3){
+    if (tanggal>0 && tanggal<20){
+        zodiak="Gemini";
+    }
+    if (tanggal>19 && tanggal<31){
+        zodiak="Cancer";
+    }
+} else if (bulan==4){
+    if (tanggal>0 && tanggal<20){
+        zodiak="Leo";
+    }
+    if (tanggal>19 && tanggal<30){
+        zodiak="Virgo";
+    }
+} else if (bulan==5){
+    if (tanggal>0 && tanggal<20){
+        zodiak="Scorpio";
+    }
+    if (tanggal>20 && tanggal<31){
+        zodiak="Libra";
+    }
+} else if (bulan==6){
+    if (tanggal>0 && tanggal<20){
+        zodiak="Sagitarius";
+    }
+    if (tanggal>20 && tanggal<30){
+        zodiak="Aries";
+    }
+} else if (bulan==7){
+    if (tanggal>0 && tanggal<20){
+        zodiak="Aquarius";
+    }
+    if (tanggal>20 && tanggal<31){
+        zodiak="Cancer";
 }
-if(bulan==1){
-    if(tanggal>0 && tanggal<20){
-        zodiak="aquarius";
+} else if (bulan==8){
+    if (tanggal>0 && tanggal<20){
+        zodiak="Scorpio";
     }
-    if(tanggal>19 && tanggal<31){
-        zodiak="taurus";
+    if (tanggal>20 && tanggal<30){
+        zodiak="Taurus";
     }
-}
-if(bulan==2){
-    if(tanggal>0 && tanggal<20){
-        zodiak="leo";
+} else if (bulan==9){
+    if (tanggal>0 && tanggal<20){
+        zodiak="Libra";
     }
-    if(tanggal>19 && tanggal<31){
-        zodiak="aries";
+    if (tanggal>20 && tanggal<31){
+        zodiak="Leo";
     }
-}
-if(bulan==3){
-    if(tanggal>0 && tanggal<20){
-        zodiak="carpricorn";
+}  else if (bulan==10){
+    if (tanggal>0 && tanggal<20){
+        zodiak="Pises";
     }
-    if(tanggal>19 && tanggal<31){
-        zodiak="piscec";
+    if (tanggal>20 && tanggal<30){
+        zodiak="Sagitarius";
     }
-}
-if(bulan==4){
-    if(tanggal>0 && tanggal<20){
-        zodiak="virgo";
+} else if (bulan==11){
+    if (tanggal>0 && tanggal<20){
+        zodiak="Capricorn";
     }
-    if(tanggal>19 && tanggal<31){
-        zodiak="cencer";
+    if (tanggal>20 && tanggal<30){
+        zodiak="Gemini";
     }
-}
-if(bulan==5){
-    if(tanggal>0 && tanggal<20){
-        zodiak="libra";
+} else if (bulan==12){
+    if (tanggal>0 && tanggal<20){
+        zodiak="Virgo";
     }
-    if(tanggal>19 && tanggal<31){
-        zodiak="sagitarius";
-    }
-}
-if(bulan==6){
-    if(tanggal>0 && tanggal<20){
-        zodiak="gemini";
-    }
-    if(tanggal>19 && tanggal<31){
-        zodiak="scorpio";
+    if (tanggal>20 && tanggal<30){
+        zodiak="Aries";
     }
 }
     console.log=(zodiak);
